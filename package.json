@@ -1,0 +1,19 @@
+{
+  "name": "playwright_flight",
+  "version": "1.0.0",
+  "description": "Playwright E2E tests for Booking.com flight route search (DEL → BOM)",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report",
+    "test:smoke": "playwright test --grep @smoke"
+  },
+  "keywords": ["playwright", "flights", "booking", "e2e"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^22.10.0"
+  }
+}
